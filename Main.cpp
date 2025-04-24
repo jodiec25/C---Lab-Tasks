@@ -12,7 +12,7 @@ int main () {
     while (ValidInput) {
         if (!(cin >> InputUser)) {
             cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '/n');
+            cin.ignore(numeric_limits<streamsize>::max(),'/n');
             cout << "Sorry you have entered an invalid number, please try again" << endl;
             continue;
         }
